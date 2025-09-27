@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8" />
+    <title>Giới thiệu bản thân</title>
+    <!-- External CSS -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+    <!-- Menu -->
+    <nav>
+        <a href="#intro">Giới thiệu bản thân</a> |
+        <a href="#contact">Gửi thông tin và liên hệ</a>
+    </nav>
+
+    <!-- Giới thiệu bản thân -->
+    <div id="intro" class="intro">
+        <h1>Giới thiệu bản thân</h1>
+        <img src="avt.png" alt="Ảnh đại diện">
+
+        <h2>Thông tin cơ bản</h2>
+        <ul>
+            <li>Tên: Nguyễn Bảo Như</li>
+            <li>Năm sinh: 2005</li>
+            <li>Chuyên ngành: Hệ thống thông tin</li>
+        </ul>
+
+        <h2>Sở thích</h2>
+        <h3>Món ăn</h3>
+        <ol>
+            <li>Phở bò</li>
+            <li>Lẩu Thái</li>
+            <li>Gà rán</li>
+        </ol>
+
+        <h3>Giải trí</h3>
+        <h4>Trò chơi</h4>
+        <ul>
+            <li>Valorant</li>
+            <li>Đấu trường chân lý</li>
+            <li>Honkai: Star Rails</li>
+        </ul>
+        <h4>Bài hát yêu thích</h4>
+        <ul>
+            <li>Die with a smile - LadyGaGa ft Bruno Mars</li>
+            <li>Trú mưa - HKT</li>
+            <li>Happy - Day6</li>
+        </ul>
+
+        <h2>Mục tiêu của bản thân</h2>
+        <table>
+            <tr>
+                <th>Mục tiêu</th>
+                <th>Thời hạn</th>
+                <th>Hoàn thành</th>
+            </tr>
+            <tr>
+                <td>Có bằng TOEIC+</td>
+                <td>25/12/2025</td>
+                <td><input type="checkbox"></td>
+            </tr>
+            <tr>
+                <td>Tìm được việc nhẹ lương cao</td>
+                <td>15/01/2027</td>
+                <td><input type="checkbox"></td>
+            </tr>
+            <tr>
+                <td>Phát triển kỹ năng lập trình Python</td>
+                <td>20/12/2026</td>
+                <td><input type="checkbox"></td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Form liên hệ -->
+    <div id="contact" class="contact">
+        <h2>Gửi thông tin và liên hệ</h2>
+        <form>
+            <label>Họ và tên:</label>
+            <input type="text" name="name"><br><br>
+
+            <label>Email:</label>
+            <input type="email" name="email"><br><br>
+
+            <label>Tin nhắn:</label><br>
+            <textarea name="message" rows="4" cols="50"></textarea><br><br>
+
+            <label>Giới tính:</label><br>
+            <input type="radio" name="gender" value="Nam"> Nam
+            <input type="radio" name="gender" value="Nữ"> Nữ<br><br>
+
+            <label>Sở thích:</label><br>
+            <input type="checkbox" name="hobby" value="Nghe nhạc"> Nghe nhạc
+            <input type="checkbox" name="hobby" value="Bơi lội"> Bơi lội
+            <input type="checkbox" name="hobby" value="Biển"> Biển<br><br>
+
+            <label>Ngành:</label>
+            <select name="major">
+                <option>Công nghệ thông tin</option>
+                <option>Hệ thống thông tin</option>
+                <option>Khoa học máy tính</option>
+                <option>Kỹ thuật phần mềm</option>
+            </select><br><br>
+
+            <input type="submit" value="Gửi">
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>@2024 MSSV 23521124 Nguyễn Bảo Như</p>
+    </footer>
+
+</body>
+</html>

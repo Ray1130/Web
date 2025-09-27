@@ -1,0 +1,112 @@
+/* Reset + font chung */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #e6f7ff; 
+    color: #0b0848;
+    line-height: 1.6;
+}
+
+/* Menu */
+nav {
+    background-color: #d4f2f4;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 2px solid #ccc;
+}
+
+nav a {
+    text-decoration: none;
+    color: #0b0848;
+    font-weight: bold;
+    margin: 0 15px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #0077b6;
+}
+
+/* Các khối nội dung */
+.intro, .contact {
+    padding: 30px;
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+    background: #fdfdfd;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+}
+
+/* Tiêu đề */
+h1, h2, h3, h4 {
+    color: #0b0848;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 2.2em;
+    border-bottom: 3px solid #ccc;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+/* Ảnh avatar */
+.intro img {
+    border-radius: 50%;
+    margin: 20px 0;
+    border: 3px solid #b0b0b0;
+    width: 150px;
+    height: 150px;
+}
+
+/* Danh sách */
+ul, ol {
+    text-align: left;
+    display: inline-block;
+    margin: 10px auto;
+    padding-left: 20px;
+}
+
+/* Bảng */
+table {
+    width: 70%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+table th, table td {
+    padding: 12px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #d4f2f4;
+    padding: 15px;
+    margin-top: 30px;
+    border-top: 2px solid #ccc;
+}
+
+footer p {
+    color: #0b0848;
+    font-weight: bold;
+}
+.avatar img {
+    width: 60px;      
+    height: 60px;     
+    border-radius: 50%; 
+    object-fit: cover;   
+}
